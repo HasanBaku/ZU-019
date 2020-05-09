@@ -1,0 +1,34 @@
+html,body,header, #intro{
+    height: 100%;
+}
+#intro{
+    background: url(../img/svg/green-trees-under-blue-and-orange-sky-during-sunset-1107717.jpg) center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top-nav-collapse{
+    background-color: black;
+}
+.my-5{
+    border: 1px solid grey;
+}
+
+
+@media (max-width: 768px ) {
+    .navbar:not(.top-nav-collapse){
+        background: black;
+    }
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
